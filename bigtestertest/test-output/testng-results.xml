@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Homepage" duration-ms="4998" started-at="2015-06-13T15:17:40Z" finished-at="2015-06-13T15:17:45Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="4998" started-at="2015-06-13T15:17:40Z" finished-at="2015-06-13T15:17:45Z">
+      <class name="testsuite_homepage.SuiteFinalizer">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testsuite_homepage.SuiteFinalizer@66da50]" name="afterSuite" is-config="true" duration-ms="10" started-at="2015-06-13T16:17:45Z" finished-at="2015-06-13T16:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testsuite_homepage.SuiteFinalizer -->
+      <class name="testsuite_homepage.Subsuite_HP_Left">
+        <test-method status="PASS" signature="abc()[pri:0, instance:testsuite_homepage.Subsuite_HP_Left@bddc6]" name="abc" duration-ms="56" started-at="2015-06-13T16:17:40Z" finished-at="2015-06-13T16:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testsuite_homepage.Subsuite_HP_Left@bddc6]" name="f" duration-ms="60" started-at="2015-06-13T16:17:40Z" finished-at="2015-06-13T16:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="flaseLoginBadCodeExampleForPOM()[pri:0, instance:testsuite_homepage.Subsuite_HP_Left@bddc6]" name="flaseLoginBadCodeExampleForPOM" duration-ms="4833" started-at="2015-06-13T16:17:40Z" finished-at="2015-06-13T16:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flaseLoginBadCodeExampleForPOM -->
+        <test-method status="PASS" signature="printBeforeMethod()[pri:0, instance:testsuite_homepage.Subsuite_HP_Left@bddc6]" name="printBeforeMethod" duration-ms="4" started-at="2015-06-13T16:17:45Z" depends-on-methods="testsuite_homepage.Subsuite_HP_Left.abc" finished-at="2015-06-13T16:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printBeforeMethod -->
+      </class> <!-- testsuite_homepage.Subsuite_HP_Left -->
+      <class name="testsuite_homepage.SuiteInitializer">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testsuite_homepage.SuiteInitializer@86efbc]" name="beforeSuite" is-config="true" duration-ms="5256" started-at="2015-06-13T16:17:34Z" finished-at="2015-06-13T16:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- testsuite_homepage.SuiteInitializer -->
+    </test> <!-- Regression -->
+  </suite> <!-- Homepage -->
+</testng-results>
